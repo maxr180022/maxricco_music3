@@ -5,11 +5,7 @@ from flask import Flask
 from telegram import Update, ReplyKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes, filters
 
-TOKEN = os.getenv("TOKEN", "твой_токен_сюда")
-
-if not TOKEN:
-    print("❌ Ошибка: Токен не найден. Установи переменную окружения TOKEN")
-    raise SystemExit(1)
+TOKEN ="7997104197:AAFAI8wkZsIUkfvoVKgSd4XDZdkqNZg26hk"
 
 app_web = Flask(__name__)
 
